@@ -1,0 +1,15 @@
+:root {
+    --text-color: #2e2e2e;
+    --main-color: #0a75ad;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--text-color);
+}
+html {
+    font-size: 65%;
+    background-color: rgb(231, 231, 231);
+    font-family: Arial, Helvetica, sans-serif;
+}

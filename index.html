@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Form Validator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="form">
+        <h2 class="form__title">Register</h2>
+        <div class="form__name form-input">
+            <label>Fullname</label>
+            <input class="inp-name" type="text" placeholder="Ex: Lê Văn Dũng">
+            <span class="message name-mes"></span>
+        </div>
+        <div class="form__email form-input">
+            <label>Email</label>
+            <input class="inp-email" type="text" placeholder="Ex: abcdef@gmail.com">
+            <span class="message email-mes"></span>
+        </div>
+        <div class="form__password form-input">
+            <label>Password</label>
+            <input class="inp-pass" type="password" placeholder="Type your password!">
+            <div class="toggle-pass hide">
+                <i class="fa-solid fa-eye"></i>
+                <i class="fa-solid fa-eye-slash"></i>
+            </div>
+            <span class="message pass-mes"></span>
+        </div>
+        <div class="form__confirm-password form-input">
+            <label>Confirm Password</label>
+            <input class="inp-conf-pass" type="password" placeholder="Type your password again!">
+            <div class="toggle-pass hide">
+                <i class="fa-solid fa-eye"></i>
+                <i class="fa-solid fa-eye-slash"></i>
+            </div>
+            <span class="message conf-pass-mes"></span>
+        </div>
+        <div class="form__submit-btn">Submit</div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
